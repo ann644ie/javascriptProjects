@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" , href="calculator.css">
+</head>
+
+<body>
+    <div class="container-1">
+
+        <table>
+            <tr class="top-box">
+                <th colspan="3" style="text-align: left; font-size: 20px;"> Result </th>
+                <th style="text-align: right;font-size: 20px;" id="result"></th>
+            </tr>
+            <tr class="top-box">
+                <td style="text-align: right;font-size: 20px;overflow: auto;" colspan="4" id="display"></td>
+
+            </tr>
+            <tr>
+                <td class="block" onclick=values(this) style="background-color:lightsteelblue;" id="+"> + </td>
+                <td class="block" onclick=values(this) style="background-color:lightsteelblue;" id="-">-</td>
+                <td class="block" onclick=values(this) style="background-color:lightsteelblue;" id="/"> / </td>
+                <td class="block" onclick=values(this) style="background-color:lightsteelblue;" id="*">X</td>
+            </tr>
+            <div>
+                <tr>
+                    <td class="block" onclick=values(this) id="1"> 1 </td>
+                    <td class="block" onclick=values(this) id="2">2</td>
+                    <td class="block" onclick=values(this) id="3">3 </td>
+                    <td class="block" rowspan="4" style="background-color: wheat" onclick=values(this) id='='>= </td>
+                </tr>
+                <tr>
+                    <td class="block" onclick=values(this) id="4"> 4 </td>
+                    <td class="block" onclick=values(this) id="5">5</td>
+                    <td class="block" onclick=values(this) id="6">6 </td>
+
+                </tr>
+                <tr>
+                    <td class="block" onclick=values(this) id="7"> 7 </td>
+                    <td class="block" onclick=values(this) id="8">8</td>
+                    <td class="block" onclick=values(this) id="9">9 </td>
+
+                </tr>
+                <tr>
+                    <td class="block" onclick=values(this) id="0"> 0 </td>
+                    <td class="block" onclick=values(this) id=".">.</td>
+                    <td class="block" onclick=values(this) id="C">C</td>
+
+                </tr>
+            </div>
+        </table>
+    </div>
+
+
+    <script src="calculator.js">
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- <div class="container-1">
+
+    <div class="top-box">
+        <div class="heading">
+            <h2>Result</h2>
+            <div id="result"></div>
+        </div>
+        <div id="display"></div>
+    </div>
+
+
+    <div class="tableBorder">
+        <div>
+            <button class="block" onclick=values(this) id="+"> + </button>
+            <button class="block" onclick=values(this) id="-">-</button>
+            <button class="block" onclick=values(this) id="/"> / </button>
+            <button class="block" onclick=values(this) id="*">X</button>
+        </div>
+        <div id="numbers">
+            <div>
+                <button class="block" onclick=values(this) id="1"> 1 </button>
+                <button class="block" onclick=values(this) id="2">2</button>
+                <button class="block" onclick=values(this) id="3">3 </button>
+
+
+                <button class="block" onclick=values(this) id="4"> 4 </button>
+                <button class="block" onclick=values(this) id="5">5</button>
+                <button class="block" onclick=values(this) id="6">6 </td>
+
+                    <button class="block" onclick=values(this) id="7"> 7 </button>
+                    <button class="block" onclick=values(this) id="8">8</button>
+                    <button class="block" onclick=values(this) id="9">9 </button>
+
+                    <button class="block" onclick=values(this) id="0"> 0 </button>
+                    <button class="block" onclick=values(this) id=".">.</button>
+                    <button class="block" onclick=values(this) id="C">C</button>
+            </div>
+            <div><button class="block" onclick=values(this) id='='>= </button></div>
+        </div>
+    </div>
+</div>
+<script src="calculator.js">
+</script> -->
